@@ -21,6 +21,14 @@ body {
 	}
 }
 
+a {
+	word-wrap: break-word;
+}
+
+.page-numbers {
+	@apply px-2 py-1 bg-gray-100;
+}
+
 .nav__sticky {
 	@apply fixed w-full py-4 mx-auto;
 	background-color: rgba(0, 0, 0, 0.5);
