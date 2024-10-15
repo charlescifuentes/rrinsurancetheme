@@ -37,7 +37,7 @@ get_header();
 		}
 		?>
 
-		<div class="container px-4 py-16 text-center ">
+		<div class="container px-4 text-center lg:py-24">
 			<header class="page-header">
 				<h1 class="page-title"><?php esc_html_e('Page Not Found', 'rrinsurancegroup'); ?></h1>
 			</header><!-- .page-header -->
