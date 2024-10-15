@@ -2161,6 +2161,11 @@ a {
   padding-bottom: 2rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pb-10 {
   padding-bottom: 2.5rem;
 }
@@ -2490,6 +2495,16 @@ a {
 
   .lg\:text-title-3 {
     font-size: 38px;
+    line-height: 1.2;
+  }
+
+  .lg\:text-title-1 {
+    font-size: 58px;
+    line-height: 1.2;
+  }
+
+  .lg\:text-display-1 {
+    font-size: 91px;
     line-height: 1.2;
   }
 }
