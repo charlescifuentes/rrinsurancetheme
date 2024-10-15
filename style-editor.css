@@ -634,6 +634,42 @@ a {
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
 }
 
+.comments__container {
+  margin-top: 1.75rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
+.comments__container form input {
+  height: 3rem;
+  width: 100%;
+  border-radius: 0.375rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+  padding: 1rem;
+}
+
+.comments__container form textarea {
+  width: 100%;
+  border-radius: 0.375rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(209 213 219 / var(--tw-border-opacity));
+  padding: 1rem;
+}
+
+.comments__container .comment-form-cookies-consent {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.comments__container .comment-form-cookies-consent input {
+  height: 3rem;
+  flex: 1;
+}
+
 .btn a {
   border-width: 2px;
   --tw-border-opacity: 1;
@@ -1839,6 +1875,11 @@ a {
   margin-right: auto;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -1847,6 +1888,11 @@ a {
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .mb-0 {
@@ -1891,6 +1937,10 @@ a {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
 }
 
 .block {
@@ -1990,10 +2040,6 @@ a {
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-6 {
-  gap: 1.5rem;
 }
 
 .gap-8 {
@@ -2100,9 +2146,19 @@ a {
   padding-right: 1rem;
 }
 
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .py-5 {
@@ -2120,9 +2176,8 @@ a {
   padding-bottom: 2rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .pb-12 {
@@ -2139,14 +2194,6 @@ a {
 
 .pt-4 {
   padding-top: 1rem;
-}
-
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
-.pb-10 {
-  padding-bottom: 2.5rem;
 }
 
 .text-center {
@@ -2185,6 +2232,11 @@ a {
 .text-title-4 {
   font-size: 28px;
   line-height: 1.2;
+}
+
+.text-title-5 {
+  font-size: 22px;
+  line-height: 1.4;
 }
 
 .text-title-6 {
@@ -2300,14 +2352,14 @@ a {
  * https://tailwindcss.com/docs/plugins#adding-utilities
  */
 
-.hover\:bg-rrRed:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 26 18 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-gray-900:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(52 56 55 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-rrRed:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 26 18 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-opacity-80:hover {
@@ -2319,14 +2371,14 @@ a {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.group:hover .group-hover\:text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 .group:hover .group-hover\:text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(249 249 249 / var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .prose-a\:text-primary :is(:where(a):not(:where([class~="not-prose"],[class~="not-prose"] *,[class~="acf-block-body"][class~="is-selected"] *))) {
@@ -2350,11 +2402,6 @@ a {
 
   .md\:flex-wrap {
     flex-wrap: wrap;
-  }
-
-  .md\:text-title-5 {
-    font-size: 22px;
-    line-height: 1.4;
   }
 }
 
@@ -2401,6 +2448,10 @@ a {
 
   .lg\:w-8\/12 {
     width: 66.666667%;
+  }
+
+  .lg\:w-9\/12 {
+    width: 75%;
   }
 
   .lg\:max-w-\[850px\] {
@@ -2453,6 +2504,11 @@ a {
 
   .lg\:text-title-2 {
     font-size: 48px;
+    line-height: 1.2;
+  }
+
+  .lg\:text-title-3 {
+    font-size: 38px;
     line-height: 1.2;
   }
 }

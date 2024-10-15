@@ -271,8 +271,8 @@ if (! function_exists('rrinsurancegroup_the_posts_navigation')) :
 		the_posts_pagination(
 			array(
 				'mid_size'  => 3,
-				'prev_text' => __('Next', 'rrinsurancegroup'),
-				'next_text' => __('Previous', 'rrinsurancegroup'),
+				'prev_text' => __('Previous', 'rrinsurancegroup'),
+				'next_text' => __('Next', 'rrinsurancegroup'),
 			)
 		);
 	}
