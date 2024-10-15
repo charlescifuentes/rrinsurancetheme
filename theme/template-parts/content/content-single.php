@@ -65,7 +65,7 @@
 
 	<footer class="entry-footer">
 		<div class="container px-4">
-			<footer class="flex items-center w-full gap-4 mx-auto mb-12 lg:w-10/12 md:flex-wrap entry-footer">
+			<footer class="flex items-center w-full gap-4 mx-auto mb-10 lg:w-10/12 md:flex-wrap entry-footer">
 				<?php
 				$author = get_the_author();
 				?>
