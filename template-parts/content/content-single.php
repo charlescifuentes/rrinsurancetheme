@@ -35,7 +35,7 @@
 	}
 	?>
 
-	<div class="container px-4 py-10 mx-auto">
+	<div class="container px-4 py-10 mx-auto lg:py-20">
 		<div <?php rrinsurancegroup_content_class('entry-content w-full lg:w-10/12 mx-auto'); ?>>
 			<?php
 			the_content(
