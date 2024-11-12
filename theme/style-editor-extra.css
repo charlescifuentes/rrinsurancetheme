@@ -57,3 +57,26 @@
   width: 100%;
   height: 250px;
 }
+
+.servicesGrid figure {
+  position: relative;
+  margin-top: 0px;
+  height: 300px;
+  width: 100%;
+}
+
+.servicesGrid figure img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.servicesGrid h4 {
+  margin-top: 0px;
+  font-family: Work Sans, system-ui;
+}
+
+.servicesGrid h4 a {
+  text-transform: capitalize;
+}

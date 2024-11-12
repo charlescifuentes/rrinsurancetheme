@@ -27,7 +27,7 @@
 			<div class="absolute top-0 left-0 bg-black bg-opacity-50 overlay size-full"></div>
 			<div class="container px-4">
 				<div class="flex items-center justify-center h-80 lg:h-96">
-					<h1 class="tracking-wide uppercase hero__page__title text-center lg:max-w-[850px]"><?php the_title(); ?></h1>
+					<h1 class="tracking-wide uppercase hero__page__title text-title-4 lg:text-title-1 font-base text-center lg:max-w-[950px]"><?php the_title(); ?></h1>
 				</div>
 			</div>
 		</div>

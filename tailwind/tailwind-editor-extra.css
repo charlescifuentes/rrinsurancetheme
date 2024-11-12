@@ -39,3 +39,21 @@
 		height: 250px;
 	}
 }
+
+.servicesGrid {
+	figure {
+		@apply h-[300px] w-full mt-0 relative;
+
+		img {
+			@apply object-cover w-full h-[300px];
+		}
+	}
+
+	h4 {
+		@apply mt-0 font-base;
+
+		a {
+			@apply capitalize;
+		}
+	}
+}
