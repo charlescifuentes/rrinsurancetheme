@@ -252,6 +252,7 @@ a {
 #site-navigation ul.sub-menu li {
   margin-top: 1.5rem;
   height: auto;
+  max-width: 20rem;
 }
 
 #site-navigation ul.sub-menu li a {
@@ -528,7 +529,8 @@ a {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.serviceItem .serviceItem__title {
+.serviceItem .serviceItem__title,
+	.serviceItem a {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
   text-align: center;
@@ -2439,6 +2441,10 @@ a {
     max-width: 850px;
   }
 
+  .lg\:max-w-\[950px\] {
+    max-width: 950px;
+  }
+
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -2490,6 +2496,11 @@ a {
 
   .lg\:text-display-1 {
     font-size: 91px;
+    line-height: 1.2;
+  }
+
+  .lg\:text-title-1 {
+    font-size: 58px;
     line-height: 1.2;
   }
 

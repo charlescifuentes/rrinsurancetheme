@@ -68,7 +68,7 @@ a {
 			@apply gap-6 px-6 pb-6 border-t-2 border-rrRed min-w-40 top-4;
 
 			li {
-				@apply h-auto mt-6;
+				@apply h-auto mt-6 max-w-80;
 
 				a {
 					@apply no-underline;
@@ -224,7 +224,8 @@ a {
 		}
 	}
 
-	.serviceItem__title {
+	.serviceItem__title,
+	a {
 		@apply px-6 leading-tight text-center text-white uppercase text-title-5;
 	}
 
