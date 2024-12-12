@@ -71,7 +71,7 @@ a {
 				@apply h-auto mt-6 max-w-80;
 
 				a {
-					@apply no-underline;
+					@apply text-white no-underline !important;
 				}
 			}
 		}

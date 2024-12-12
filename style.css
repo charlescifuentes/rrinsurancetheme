@@ -703,7 +703,9 @@ a {
 }
 
 #site-navigation ul.sub-menu li a {
-  text-decoration-line: none;
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+  text-decoration-line: none !important;
 }
 
 #site-navigation ul li ul {
